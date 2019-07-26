@@ -95,5 +95,5 @@ if not exist "%WinDir%\SysWOW64" reg add HKLM\Software\Tencent\QQ2009 /v Install
 if exist "%WinDir%\SysWOW64" reg add HKLM\Software\Wow6432Node\Tencent\QQ2009 /v Install /d "%~dp0\" /f >NUL
 
 :: 设置安装版本号，企业类型网页会话需要，CRM组件需保留
-if not exist "%WinDir%\SysWOW64" reg add HKLM\Software\Tencent\QQ2009 /v version /d "56.17.0.24712.0" /f >NUL
-if exist "%WinDir%\SysWOW64" reg add HKLM\Software\Wow6432Node\Tencent\QQ2009 /v version /d "56.17.0.24712.0" /f >NUL
+if not exist "%WinDir%\SysWOW64" reg add HKLM\Software\Tencent\QQ2009 /v version /d "56.41.0.25530.0" /f >NUL
+if exist "%WinDir%\SysWOW64" reg add HKLM\Software\Wow6432Node\Tencent\QQ2009 /v version /d "56.41.0.25530.0" /f >NUL

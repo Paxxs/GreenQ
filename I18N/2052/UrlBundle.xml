@@ -107,7 +107,7 @@
     http://qinfo.clt.qq.com/group_member_card/index.html?groupuin=$GUIN$&amp;uin=$UIN$&amp;identity=$ID$&amp;officemode=$OFFICEMODE$
   </String>
   <String id="OFFLINE_PACKAGE_CHECK_URL">
-    http://offline.qq.com/offline/check?qver=$QVER$&amp;hver=$HVER$&amp;pf=$PF$&amp;biz=$BIZ$&amp;uin=$UIN$
+    https://offline.qq.com/offline/check?qver=$QVER$&amp;hver=$HVER$&amp;pf=$PF$&amp;biz=$BIZ$&amp;uin=$UIN$
   </String>
   <String id="IDS_WRITEEMAIL_TOBUDDY">
 		http://ptlogin2.qq.com/qqmail?Fun=clientwrite&amp;type=com_$CODE$&amp;email=$EMAIL$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;ptlang=$LANG$&amp;httptype=$HTTPTYPE$
@@ -271,6 +271,12 @@
   <String id="DOCX_COOKIE_URL">
     http://.docs.qq.com
   </String>
+  <String id="QBoss_FetchUrl">
+    https://h5.qzone.qq.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_get_multiple_strategy
+  </String>
+  <String id="QBoss_ReportUrl">
+    https://h5.qzone.qq.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_rep_multiple_strategy
+  </String>
   <String id="IDS_GROUP_URL_FINGER2">
 		http://ptlogin2.qq.com/client_group?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;guin=$GUIN$&amp;type=7&amp;keyword=$KEYWORD$&amp;catalog1=$CATALOG1$&amp;catalog2=$CATALOG2$
 	</String>
@@ -324,6 +330,12 @@
 	</String>
   <String id="SAFEAIO_URL">
 		http://ptlogin2.qq.com/aq_importal?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;clientver=$VER$&amp;safever=$SAFEVER$&amp;showpage=$SHOWPAGE$
+	</String>
+  <String id="PCMgr_Download_URL">
+		https://dldir2.qq.com/invc/qqpcmgr/other/QQPCMgr_Setup.exe
+	</String>
+  <String id="QQLiveMPlayerSetup_Download_URL">
+		https://dldir1.qq.com/qqfile/qq/plugin/QQLiveMPlayerSetup.exe
 	</String>
   <String id="PCMgr_Prepare_URL">
 		https://c.pc.qq.com/fcgi-bin/qqpcfix?ver=$PCMGRVER$
@@ -510,13 +522,13 @@
 		http://qlist.qlogo.cn/del_file?uin=$UIN$&amp;sign=$SIGN$
 	</String>
   <String id="IDS_WEB_SEARCH_URL_DEFAULT">
-		http://find.qq.com/index.html?version=$WEB_VERSION$&amp;im_version=$IM_VERSION$&amp;width=$WND_WIDTH$&amp;height=$WND_HEIGHT$&amp;search_target=$PAGE_ID$#t1=$TIME1$&amp;t2=$TIME2$
+		https://find.qq.com/index.html?version=$WEB_VERSION$&amp;im_version=$IM_VERSION$&amp;width=$WND_WIDTH$&amp;height=$WND_HEIGHT$&amp;search_target=$PAGE_ID$#t1=$TIME1$&amp;t2=$TIME2$
 	</String>
   <String id="IDS_WEB_SEARCH_URL_SPECIAL">
-    http://find.qq.com/index.html?version=$WEB_VERSION$&amp;im_version=$IM_VERSION$&amp;width=$WND_WIDTH$&amp;height=$WND_HEIGHT$#t1=$TIME1$&amp;t2=$TIME2$
+    https://find.qq.com/index.html?version=$WEB_VERSION$&amp;im_version=$IM_VERSION$&amp;width=$WND_WIDTH$&amp;height=$WND_HEIGHT$#t1=$TIME1$&amp;t2=$TIME2$
   </String>
   <String id="IDS_WEB_SEARCH_URL_WITH_COND">
-		http://find.qq.com/index.html?version=$WEB_VERSION$&amp;im_version=$IM_VERSION$&amp;width=$WND_WIDTH$&amp;height=$WND_HEIGHT$&amp;search_target=$PAGE_ID$&amp;search_keyword=$KEY$&amp;t1=$TIME1$&amp;t2=$TIME2$&amp;location=$LOCATION$&amp;longitude=$LONGITUDE$&amp;latitude=$LATITUDE$&amp;geography=$GEOGRAPHY$&amp;gcode=$GCODE$#search_word=$COND$
+		https://find.qq.com/index.html?version=$WEB_VERSION$&amp;im_version=$IM_VERSION$&amp;width=$WND_WIDTH$&amp;height=$WND_HEIGHT$&amp;search_target=$PAGE_ID$&amp;search_keyword=$KEY$&amp;t1=$TIME1$&amp;t2=$TIME2$&amp;location=$LOCATION$&amp;longitude=$LONGITUDE$&amp;latitude=$LATITUDE$&amp;geography=$GEOGRAPHY$&amp;gcode=$GCODE$#search_word=$COND$
   </String>
   <String id="WebSearch_URL_Suggesstion">
 		http://support.qq.com/discuss/910_1.shtml
@@ -640,6 +652,8 @@
   <String id="IDS_DOCX_COOKIE_DOMAIN2">.docs.qq.com</String>
   <String id="DocsGetAuth_url">https://docs.qq.com/cgi-bin/online_docs/auth_msg/getuser?uin=$UIN$&amp;docUrl=$URL$&amp;xsrf=$TOK$</String>
   <String id="DocsSetAuth_url">https://docs.qq.com/cgi-bin/online_docs/auth_msg/setuser?uin=$UIN$&amp;docUrl=$URL$&amp;flag=$FLAG$&amp;xsrf=$TOK$</String>
+  <String id="QQ_Support_Url">https://support.qq.com/product/$SUPPORTID$?openid=$UIN$&amp;nickname=$NICK$&amp;avatar=$AVATAR$&amp;clientInfo=$CLIENTINFO$&amp;clientVersion=$CLIENTVERSION$&amp;os=$OS$&amp;osVersion=$OSVERSION$</String>
+  <String id="QQ_Head_Url">https://q1.qlogo.cn/g?b=qq&amp;nk=$UIN$&amp;s=100</String>
   <String id="QQVip_VipURL_ParaTwo">
 		http://ptlogin2.qq.com/clubclient?ptlang=$LANG$&amp;from=$WHERE$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;param=$PARA$
 	</String>
@@ -707,6 +721,7 @@
     tv.qq.com
   </String>
   <String id="StructMsgSourcePtloginJumpUrl">https://ptlogin2.qq.com/jump?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;u1=$URL$</String>
+  <String id="StructMsgGroupInvite_PictureUrl">http://p.qlogo.cn/gh/%s/%s/100</String>
   <String id="QQ_FEEDBACK_URL">
 		http://ptlogin2.qq.com/clienturl_321?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
 	</String>
@@ -719,6 +734,9 @@
   <String id="QQVip_VipURL">
 		http://ptlogin2.qq.com/clubclient?ptlang=$LANG$&amp;from=$WHERE$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
 	</String>
+  <String id="QQVip_BigVipURL">
+		https://pay.qq.com/ipay/index.shtml?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;c=svlhhzdb&amp;aid=pay.service.dhytxcz_PCQQ
+  </String>
   <String id="QQVip_SVipURL">
     https://vip.qq.com/super/index.html?ptlang=$LANG$&amp;from=$WHERE$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
   </String>
@@ -1080,7 +1098,7 @@
   <String id="GroupTBEssence_Url">https://h5.qzone.qq.com/groupphoto/index?inqq=3&amp;groupId=$GROUPUIN$&amp;ver=$CLIENTVER$&amp;visitor=$ISVISITOR$&amp;ts=$STIME$</String>
   <String id="GROUP_BULLETIN_EDITOR_URL">http://client.qun.qq.com/announce/aio/publish.html#gid=$GROUPUIN$&amp;ver=$CLIENTVER$&amp;ts=$STIME$</String>
   <String id="GROUP_BULLETIN_URL">https://web.qun.qq.com/announce/index.html#gc=$GROUPUIN$&amp;fid=$FEEDSID$&amp;school=$SCHOOL$</String>
-  <String id="URL_GROUP_ASYNC_MESSAGES_PANEL">https://async.qun.qq.com/cgi-bin/sys_msg/getmsg?ver=$CLIENT_VER$&amp;filter=2&amp;ep=0</String>
+  <String id="URL_GROUP_ASYNC_MESSAGES_PANEL">https://web.qun.qq.com/cgi-bin/sys_msg/getmsg?ver=$CLIENT_VER$&amp;filter=0&amp;ep=0</String>
   <String id="URL_GROUP_PIC_FEEDBACK">https://ptlogin2.qq.com/jump?clientuin=$UIN$&amp;clientkey=$CLIENT_KEY$&amp;u1=https://support.qq.com/write.shtml?fid=805</String>
   <String id="DOMAIN_GROUP_ASYNC_MESSAGES_PANEL">http://.qq.com</String>
   <String id="PublicGroupVisitorListUrl">
@@ -1688,10 +1706,10 @@
 		https://cgi.qqweb.qq.com/qqweb/appbox/tablist
 	</String>
   <String id="URL_APPCENTER_TABJUMP">
-    http://appbox.qq.com/v3/index.html#page=$PAGEID$&amp;appid=$APPID$&amp;uin=$UIN$&amp;sext=$SEXT$&amp;stkey=$STKEY$
+    https://appbox.qq.com/v3/index.html#page=$PAGEID$&amp;appid=$APPID$&amp;uin=$UIN$&amp;sext=$SEXT$&amp;stkey=$STKEY$
 	</String>
   <String id="URL_APPCENTER_TABJUMP_WITH_TRACEID">
-    http://appbox.qq.com/v3/#page=$PAGEID$&amp;appid=$APPID$&amp;traceid=$TRACEID$
+    https://appbox.qq.com/v3/#page=$PAGEID$&amp;appid=$APPID$&amp;traceid=$TRACEID$
 	</String>
   <String id="URL_CRMModeNode">http://ptlogin.qq.com/jump?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=0&amp;u1=</String>
   <String id="URL_SafeScan">https://ssl.ptlogin2.qq.com/safescan</String>
@@ -1866,7 +1884,7 @@
 		$DOMAIN$?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;guin=$GUIN$&amp;type=7&amp;keyword=$KEYWORD$&amp;catalog1=$CATALOG1$&amp;catalog2=$CATALOG2$
 	</String>
   <String id="BR_SERVER_URL">
-		http://bugreportv2.qq.com/cgi-bin/bugreport
+		http://127.0.0.1
 	</String>
   <String id="QQGame_URL">
 		http://game.qq.com?clientuin=$UIN$&amp;clientkey=$KEY$
@@ -2197,9 +2215,13 @@
     pdllog01.qq.com:80
   </String>
   <String id="URL_MyCollection_CMD">
-    <!--http://101.226.35.81/collector.fcg-->
-    https://collector.weiyun.com/collector.fcg
-    <!--http://10.128.1.209/collector.fcg--></String>
+    <!-- http://100.116.45.7/collector.fcg -->
+    https://collector.weiyun.com/collector.fcg    
+  </String>
+  <String id="URL_MyCollection_CMD_DEBUG">
+    <!--http://14.17.57.221/collector.fcg-->
+    http://collector.weiyun.com/collector.fcg
+  </String>
   <String id="URL_MyCollection_Upload">
     <!--http://101.226.35.81/pic_uploader.fcg-->
     https://uploader.collector.weiyun.com/pic_uploader.fcg
@@ -2240,4 +2262,4 @@
   <String id="URL_MyCollection_FileDownload">
     http://$HOST$:$PORT$/ftn_handler/$ENCODEURL$/?fname=$FILENAME$
   </String>
-</StringBundle> 
+</StringBundle>

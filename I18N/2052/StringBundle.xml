@@ -386,6 +386,12 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="SelectContact_SelectedContacts_Format">
     已选联系人: $SEL$/$COUNT$
   </String>
+  <String id="SelectContact_SelectedContacts_Format2">
+    已选联系人: $SEL$
+  </String>
+  <String id="SelectContact_ToastText">
+    当前群聊人数较多，为减少打扰，对方同意邀请后才会进入群聊。
+  </String>
   <String id="SelectContact_SelectContact">
     选择联系人
   </String>
@@ -650,6 +656,9 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="SuperVip_Nameplate_Tips">
     超级会员身份铭牌
   </String>
+  <String id="BigVip_Nameplate_Tips">
+    QQ大会员LV$LEVEL$
+  </String>
   <String id="SuperVip_AppearenceSetting_Tips">
     设置出场动画
   </String>
@@ -779,6 +788,7 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="No_Terminal">设备不存在，请先用该设备登录</String>
   <String id="SelectContactPanel_Mine">我的</String>
   <String id="SelectContactPanel_Contact">选择好友</String>
+  <String id="SelectContactPanel_SpecialCare">特别关心</String>
   <String id="SelectContactPanel_Discuss">选择多人聊天</String>
   <String id="SelectContactPanel_Group">选择群聊</String>
   <String id="SelectContactPanel_GroupMember">选择群成员</String>
@@ -975,6 +985,7 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="PICFILE_MENUITEM_DOWNLOAD">下载</String>
   <String id="PICFILE_MENUITEM_SAVE">另存为</String>
   <String id="PICFILE_MENUITEM_SAVEAS">保存到本地</String>
+  <String id="PICFILE_MENUITEM_SENDTO">发送到</String>
   <String id="PICFILE_MENUITEM_OPENWEIYUNBOX">到微云查看</String>
   <String id="PICFILE_MENUITEM_RESUMERECEIVE">继续下载</String>
   <String id="PICFILE_MENUITEM_RESUMESEND">继续发送</String>
@@ -987,6 +998,10 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="PICFILE_MENUITEM_APPEND_QQ_FACE">添加到表情</String>
   <String id="PICFILE_MENUITEM_EDIT_QQ_DIYFACE">表情DIY</String>
   <String id="PICFILE_MENUITEM_MSGREPLY">回复</String>
+  <String id="PICFILE_MENUITEM_MULTISELECT">多选</String>
+  <String id="PICFILE_MENUITEM_DELETEMSG">删除</String>
+  <String id="MainPanelSearch_Title_File">文件</String>
+  <String id="MainPanelSearch_Title_Collection">收藏</String>
   <String id="NewReCommendBuddy_AddBuddy">添加</String>
   <String id="NewReCommendBuddy_BeBuddy">为好友</String>
   <String id="NewReCommendBuddy_GoBack">前一页</String>
@@ -1001,6 +1016,18 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="CancelTransferToolTips">点击取消，将转为普通文档形式发送。</String>
   <String id="Clipboard_PastImageErrorMsgBox_Title">提示</String>
   <String id="Clipboard_PastImageErrorMsbBox_Text_DiskFull">粘贴图片失败，磁盘空间不足。</String>
+  <String id="ShortcutFace_GoBack">前一页</String>
+  <String id="ShortcutFace_GoAhead">下一页</String>
+  <String id="NewUserRecommend_DeleteMenuItemText"> 不再为我推荐</String>
+  <String id="NewUserRecommend_AddBuddy">添加</String>
+  <String id="NewUserRecommend_JoinGroup">加入</String>
+  <String id="NewUserRecommend_AddBuddy_End">为好友</String>
+  <String id="NewUserRecommend_Gender">性别</String>
+  <String id="NewUserRecommend_Boy">男</String>
+  <String id="NewUserRecommend_Gril">女</String>
+  <String id="NewUserRecommend_Age">岁</String>
+  <String id="NewUserRecommend_Reason">推荐理由</String>
+  <String id="NewUserRecommend_JoinGroupAcc">加入群</String>
   <String id="Link_Resend">
 		重新发送
 	</String>
@@ -1273,6 +1300,12 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="QuitSameTIMAppTips_Content">
     同帐号TIM已经退出
   </String>
+  <String id="IDS_CommonMenu_Copy">复制</String>
+  <String id="IDS_CommonMenu_Forward">转发</String>
+  <String id="IDS_CommonMenu_MultiSelect">多选</String>
+  <String id="IDS_CommonMenu_Delete">删除</String>
+  <String id="CF_MultiMsgSelect_Error_Tips_LimitCount">最多选择$COUNT$条消息</String>
+  <String id="CF_MultiMsgSelect_Error_Tips_LimitCount_Title">提示</String>
   <String id="LoginPanel_Cancel">
 		取消
 	</String>
@@ -1336,9 +1369,12 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="MsgFlowTips_BeforeProPicsSizeOver120">
     图片发送失败，单条消息图片不可超过$NUM$M。
   </String>
-  <String id="Tip_ScreenCapButton">
-		屏幕截图
+  <String id="Tip_ScreenCapOCR">
+		屏幕识图
 	</String>
+  <String id="Tip_ScreenCapButton">
+    屏幕截图
+  </String>
   <String id="Rich_Edit_To_QQFace">
 		涂鸦编辑
 	</String>
@@ -1642,6 +1678,9 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="CF_MSGHISTORY_CLEAR">
 		清屏
 	</String>
+  <String id="CF_DELETE_MSG">
+    删除
+  </String>
   <String id="CF_MSGHISTORY_NOTSHOW">
 		不显示消息记录
 	</String>
@@ -1653,6 +1692,12 @@ Patents and trademarks,QUALCOMM Incorporated.
 	</String>
   <String id="CF_MSGHISTORY_FONTSIZE">
     显示字体大小
+  </String>
+  <String id="CF_MSGHISTORY_MUTIL_SELECT">
+    多选
+  </String>
+  <String id="CF_MSGHISTORY_MsgForward">
+    转发
   </String>
   <String id="CF_GROUPMSG_TIP">
 		来消息不提示
@@ -1946,6 +1991,9 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="CCHotKey_LockQQ" fmt="true">
     锁定$__PNAME$
   </String>
+  <String id="CCHotKey_CameraOCR">
+    屏幕识图
+  </String>
   <String id="CCHotKey_Camera">
     捕捉屏幕
   </String>
@@ -2185,6 +2233,9 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="SAVEAS">
     另存为
   </String>
+  <String id="SENDTO">
+    发送到
+  </String>
   <String id="CF_SHOW_MSGBUBBLE">
 		使用多彩气泡
 	</String>
@@ -2279,6 +2330,9 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="RevokeMsgTip_FailedReedit">
     消息已过期，仅支持5分钟内撤回的消息再次编辑。
   </String>
+  <String id="PubAccBGTip">
+    暂无推送内容，更多精彩敬请期待~
+  </String>
   <String id="GVL_GROUP_BTN_PANEL_TITLE">
 	加入
   </String>
@@ -2326,6 +2380,34 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="SetGroupPermissionOK1">权限已更改，并将失效的链接还原为永久。</String>
   <String id="IDS_Forward_Struct_CommonTitle">转发的聊天记录</String>
   <String id="IDS_Forward_Struct_Menu_Open">打开</String>
+  <String id="IDS_Forward_Struct_Menu_Collect">收藏</String>
+  <String id="IDS_Forward_Struct_Menu_Copy">复制</String>
+  <String id="IDS_Forward_Struct_Loading">加载中...</String>
+  <String id="IDS_Forward_Struct_LoadError">加载失败</String>
+  <String id="RichMultiSelectCollect">收藏</String>
+  <String id="RichMultiSelectDelete">删除</String>
+  <String id="RichMultiSelectCancel">取消</String>
+  <String id="RichMultiSelectOneForward">逐条转发</String>
+  <String id="RichMultiSelectMergeForward">合并转发</String>
+  <String id="IDS_MsgForwording_OFFLINE_MSGBOX_TEXT">抱歉，你当前处于离线状态，请登录后再尝试转发。</String>
+  <String id="IDS_MsgForwording_OFFLINE_MSGBOX_title">提示</String>
+  <String id="IDS_MsgForwording_Already">当前已有转发窗口，请先关闭后再操作。</String>
+  <String id="IDS_MsgForwording_Already_title">提示</String>
+  <String id="IDS_MsgForwording_Cancel">已发出的消息无法取消，确认停止转发吗？</String>
+  <String id="IDS_MsgForwording_Cancel_title">提示</String>
+  <String id="IDS_MsgForwording_LimitWindowCount">只能打开5个转发窗口</String>
+  <String id="IDS_MsgForwording_LimitWindowCount_title">提示</String>
+  <String id="IDS_MsgForwording">转发</String>
+  <String id="IDS_MsgForwording_Search">搜索</String>
+  <String id="IDS_MsgForwording_SelectedDef">选择要转发的联系人</String>
+  <String id="IDS_MsgForwording_SelectedFmt">已选择$SEL$个联系人:</String>
+  <String id="IDS_MsgForwording_EditTips">留言...</String>
+  <String id="IDS_MsgForwording_TitleFmt1">$YOU$和$SELF$的聊天记录</String>
+  <String id="IDS_MsgForwording_TitleFmt2">$SELF$的聊天记录</String>
+  <String id="IDS_MsgForwording_TitleFmt3">群聊的聊天记录</String>
+  <String id="IDS_MsgForwording_BriefFmt">$NAME$:$MSG$</String>
+  <String id="IDS_MsgForwording_TooDeep_DefContent">[合并转发]该消息不支持查看</String>
+  <String id="MemList_AccCaption">成员列表</String>
   <String id="SCANVIRUS_VIRUSTYPE_DEFAULT">
 		盗号木马
 	</String>
@@ -2777,6 +2859,9 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="CustomHead_QQGame">
 		游戏头像(共$NUM$个)
 	</String>
+  <String id="CustomHead_Dynamic">
+    系统头像(共$NUM$个)
+  </String>
   <String id="Window_CustomHead_Vip_Dyn">
 		推荐头像
 	</String>
@@ -4130,15 +4215,18 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="ImageTip_orgscale">
 		实际大小
 	</String>
-  <String id="ImageTip_Openwith">
-    使用默认图片查看器打开
-  </String>
+  <String id="ImageTip_Prescale">
+		恢复最近大小
+	</String>
   <String id="ImageTip_rightrotate">
 		向右旋转
 	</String>
   <String id="ImageTip_save">
 		保存
 	</String>
+  <String id="ImageTip_ocr">
+    提取图中文字
+  </String>
   <String id="ImageTip_dataline">
 		发送到手机
 	</String>
@@ -4154,8 +4242,8 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="ImageTip_share">
 		分享
 	</String>
-  <String id="ImageTip_cool">
-		赞一下
+  <String id="ImageTip_preview">
+		预览
 	</String>
   <String id="ImageTip_close">
 		关闭
@@ -4174,9 +4262,6 @@ Patents and trademarks,QUALCOMM Incorporated.
 	</String>
   <String id="ImageTip_saveqzong">
 		保存到空间
-	</String>
-  <String id="ImageTip_saveweiyun">
-		保存到微云
 	</String>
   <String id="ImageTip_Full">
 		查看全屏
@@ -4784,6 +4869,18 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="AddBuddyQzone">
 		QQ空间
 	</String>
+  <String id="ImagePreviewer_FirstPage">
+		已经是第一页
+	</String>
+  <String id="ImagePreviewer_LastPage">
+		已经是最后一页
+	</String>
+  <String id="ImagePreviewer_PrePage">
+		上一页
+	</String>
+  <String id="ImagePreviewer_NextPage">
+		下一页
+	</String>
   <String id="ImageViewer_LastPic">
 		已经是最后一张
 	</String>
@@ -5048,6 +5145,9 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="ShareCard_Chat">
 		发消息
 	</String>
+  <String id="ShareCard_Brief">
+		[名片分享]
+	</String>
   <String id="ShareCard_GroupMemberCard_CompatibleText">
 		[名片分享]你的QQ版本不支持查看该名片分享内容，请下载最新版本。
 	</String>
@@ -5309,6 +5409,9 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="IDS_DOCX_URL_JUMP">
 		https://ssl.ptlogin2.qq.com/jump?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;u1=$URL$
 	</String>
+  <String id="IDS_STANDARD_URL_OPENJUMP">
+    https://ssl.ptlogin2.qq.com/$JUMPNAME$?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=0&amp;u1=$URL$
+  </String>
   <String id="UN_CHOSE_MORE">
 		更多
 	</String>
@@ -5340,6 +5443,15 @@ Patents and trademarks,QUALCOMM Incorporated.
 		https://pc3.gtimg.com/softmgr/logo/
 	</String>
   <String id="HistoryDelFail">删除失败</String>
+  <String id="DocForm_Text">
+    收集表
+  </String>
+  <String id="DocForm_You">
+    你
+  </String>
+  <String id="DOC_FORM_JUMP_URL">
+    https://docs.qq.com/desktop/templates-list.html?padtype=2
+  </String>
   <String id="DocImport_FileFilter">
     自定义文件|*.doc;*.docx;*.xls;*.xlsx||
   </String>
@@ -5351,6 +5463,18 @@ Patents and trademarks,QUALCOMM Incorporated.
   </String>
   <String id="DocImport_ErrorTextNormalStructMsg">
     腾讯文档创建失败，请稍后重试。
+  </String>
+  <String id="DocShare_ErrorShareWndAlreadyExist">
+    分享窗口已存在。
+  </String>
+  <String id="DocShare_ErrorShareWndAlreadyExistTitle">
+    提示
+  </String>
+  <String id="DocShare_ErrorShareFailed">
+    发送邀请失败，请稍后重试
+  </String>
+  <String id="DocShare_ErrorShareNumLimit">
+    发送邀请失败，最多分享3个QQ群以及5个QQ好友
   </String>
   <String id="DocImport_ErrorTextFileOverdueOrDeleted">
     文件已过期或已删除，无法转为腾讯文档。
@@ -5369,6 +5493,9 @@ Patents and trademarks,QUALCOMM Incorporated.
   </String>
   <String id="DocImport_ErrorTextRet108">
     导入失败，不正确的office文件格式，请检查。
+  </String>
+  <String id="DocImport_ErrorTextRet115">
+    暂不支持加密文件的导入。
   </String>
   <String id="DocImport_ButtonFeedback">
     我要反馈
@@ -5389,8 +5516,10 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="DocImport_BtnIKnown">我知道了</String>
   <String id="DocImport_ThisMsgOnlySelfCanSee">该消息仅自己可见</String>
   <String id="DocImport_ImportDocCompleteDatalineMsg">腾讯文档“%s”创建成功。</String>
-  <String id="DocImport_ImportDocCompleteGrayTipPrefix">腾讯文档“%s”创建成功。</String>
-  <String id="DocImport_ImportDocCompleteGrayTipOpenLink">立即查看</String>
+  <String id="DocImport_ImportDocCompleteGrayTipPrefix">已另存为腾讯文档“%s”。</String>
+  <String id="DocImport_ImportDocCompleteGrayTipOpenLink">点击查看</String>
+  <String id="DocImport_ImportDocCompleteGrayTipMiddle">或</String>
+  <String id="DocImport_ImportDocCompleteGrayTipShareLink">邀请好友一起编辑</String>
   <String id="DocImport_ImportDocCompleteGrayTipSuffix">。</String>
   <String id="DocImport_CreateDocCompleteGrayTipPrefix">腾讯文档“%s”创建成功。</String>
   <String id="DocImport_CreateDocCompleteGrayTipOpenLink">立即查看</String>
@@ -5473,19 +5602,6 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="em_IMG_ChatIconLevel2_Tips">ContactInfoFrame\\interactiveInfo\\ChatLevelIcon2_tips.png</String>
   <String id="em_IMG_PraiseIconLevel1_Tips">ContactInfoFrame\\interactiveInfo\\PraiseLevelIcon1_tips.png</String>
   <String id="em_IMG_PraiseIconLevel2_Tips">ContactInfoFrame\\interactiveInfo\\PraiseLevelIcon2_tips.png</String>
-  <String id="ImageViewer_TitleBar_ShowFrames">15</String>
-  <String id="ImageViewer_TitleBar_HideFrames">30</String>
-  <String id="ImageViewer_Btn_ShowFrames">20</String>
-  <String id="ImageViewer_Btn_HideFrames">40</String>
-  <String id="ImageViewer_TrayBar_ShowFrames">15</String>
-  <String id="ImageViewer_TrayBar_HideFrames">30</String>
-  <String id="ImageViewer_TitleBar_StartAlpha1">0</String>
-  <String id="ImageViewer_TitleBar_EndAlpha1">200</String>
-  <String id="ImageViewer_TitleBar_StartAlpha2">0</String>
-  <String id="ImageViewer_TitleBar_EndAlpha2">180</String>
-  <String id="ImageViewer_TrayBar_StartAlpha1">0</String>
-  <String id="ImageViewer_TrayBar_EndAlpha1">220</String>
-  <String id="ImageViewer_Btn_StartAlpha1">0</String>
   <String id="RegardMsg_RegardMsgTitle">一声问候</String>
   <String id="RegardMsg_BirthdayDatePass">生日已过</String>
   <String id="RegardMsg_BirthdayDateAlreadySend">已祝福</String>
@@ -5505,7 +5621,6 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="RegardMsg_WeakDay7">星期六</String>
   <String id="RegardMsg_AM">上午</String>
   <String id="RegardMsg_PM">下午</String>
-  <String id="ImageViewer_Btn_EndAlpha1">220</String>
   <String id="ImageViewer_BigImage_CannotOpen">该图片过大，暂不支持打开，</String>
   <String id="ImageViewer_BigImage_OpenWithDefault">请使用第三方查看。</String>
   <String id="WatchFocusMsg_MsgTitle">QQ看点</String>
@@ -5546,7 +5661,12 @@ Patents and trademarks,QUALCOMM Incorporated.
     &lt;source/&gt;
     &lt;/msg&gt;
   </String>
+  <String id="GroupFileShareDown_FileIsNotExist">
+    此文件不存在，可能被删除或者移动到其他位置。
+  </String>
+  <String id="IDS_MESSAGE_BOX_TITLE">提示</String>
   <String id="OnlinePreview_WaitPage">https://docs.qq.com/preview/startpage?uniquefileid=$strUniqueID$</String>
+  <String id="OnlinePreview_WaitPage_New">https://docs.qq.com/scenario/pcqqstartpage.html?uniquefileid=$strUniqueID$</String>
   <String id="OnlinePreview_FailedMsg">“%s”在线预览失败，请检查后重试。</String>
   <String id="DocPreview_PreviewDocCompleteGrayTipPrefix">文档“%s”已生成腾讯文档，编辑内容在云端保存，不会改变原文件。</String>
   <String id="DocPreview_PreviewDocCompleteGrayTipOpenLink">立即查看</String>
@@ -5558,8 +5678,10 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="IDS_DocPolicy_Warn_Title">提醒</String>
   <String id="IDS_DocPolicy_Warn_Text">文档对%s没有开放查看权限，是否把他改为可查看。</String>
   <String id="IDS_DocPolicy_Warn_Text1">文档对%s没有开放查看权限，是否改为只有他可查看。</String>
+  <String id="IDS_DocPolicy_Warn_Text2">文档对%s没有开放填写权限，是否设置他可填写?</String>
   <String id="IDS_DocGroupPolicy_Warn_SomeoneView">文档对该群部分成员没有开放查看权限，是否改为该群成员均可查看。</String>
   <String id="IDS_DocGroupPolicy_Warn_NoneView">该群成员不能查看文档，你可以设置该群成员为：</String>
+  <String id="IDS_DocGroupPolicy_Warn_NoneViewForForm">该群成员不能填写收集表，是否设置该群成员可填写?</String>
   <String id="IDS_DocPolicy_View">可查看</String>
   <String id="IDS_DocPolicy_Edit">可编辑</String>
   <String id="IDS_DocPolicy_Set_Ok">确定</String>
@@ -5602,6 +5724,39 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="DocOpenType_GrayTipOver">
     。
   </String>
+  <String id="Support_Redirect_Page">
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="zh"&gt;
+    &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;style&gt;
+        form {
+          display: none
+        }
+      &lt;/style&gt;
+      &lt;title&gt;反馈问题&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;form id="form" method="post" action="https://support.qq.com/product/36086"&gt;
+        &lt;input type="hidden" name="openid" value="%lu"&gt;
+        &lt;input type="hidden" name="nickname" value="%s"&gt;
+        &lt;input type="hidden" name="avatar" value="https://q1.qlogo.cn/g?b=qq&amp;nk=%lu&amp;s=100"&gt;
+      &lt;/form&gt;
+      &lt;script&gt;
+        document.getElementById("form").submit();
+      &lt;/script&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  </String>
+  <String id="BUDDY_STICK_ERROR_TITLE">设置失败</String>
+  <String id="BUDDY_STICK_ERROR_CONTENT">设置失败，请稍后重试。</String>
+  <String id="ADDBUDDY_MALIUSERVERIFY_TITLE"> 添加好友验证</String>
+  <String id="NEWUSERREC_TITLE_BUDDY">可能认识的人</String>
+  <String id="NEWUSERREC_TITLE_GROUP">感兴趣的群</String>
+  <String id="NEWUSERREC_MORE_BUDDY"> 发现更多好友</String>
+  <String id="NEWUSERREC_MORE_GROUP">发现更多群</String>
+  <String id="NEWUSERREC_SURECLOSE">确认关闭</String>
+  <String id="NEWUSERREC_CLOSE">关闭</String>
   <String id="PROD_NAME_VER" fmt="true">
 		$__PNAME_V$
 	</String>
@@ -6018,6 +6173,9 @@ Patents and trademarks,QUALCOMM Incorporated.
   <String id="Tips_Camera_Toolbar_SaveTip">
     保存 Ctrl+S
   </String>
+  <String id="Tips_Camera_Toolbar_OcrTip">
+    屏幕识图
+  </String>
   <String id="Tips_Camera_Toolbar_UndoTip">
     撤销编辑 Ctrl+Z
   </String>
@@ -6029,6 +6187,9 @@ Patents and trademarks,QUALCOMM Incorporated.
   </String>
   <String id="Tips_Camera_Toolbar_ArrowTip">
     箭头工具
+  </String>
+  <String id="Tips_Camera_Toolbar_EditLongCapture">
+    编辑工具
   </String>
   <String id="Tips_Camera_Toolbar_CircleTip">
     椭圆工具
@@ -6134,6 +6295,51 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   </String>
   <String id="Camera_SaveCaptureToFileErrorMsgBox_Text_DiskFull">
     保存截图到文件失败，磁盘空间不足。
+  </String>
+  <String id="Camera_OCR_WndTitle">
+    屏幕识图
+  </String>
+  <String id="Camera_OCR_Tooltips_Edit">
+    编辑
+  </String>
+  <String id="Camera_OCR_Tooltips_Copy">
+    复制
+  </String>
+  <String id="Camera_OCR_Tooltips_Download">
+    下载
+  </String>
+  <String id="Camera_OCR_Tooltips_Cancel">
+    取消
+  </String>
+  <String id="Camera_OCR_Tooltips_Save">
+    确认
+  </String>
+  <String id="Camera_OCR_Tips_Select">
+    框选识别文字
+  </String>
+  <String id="Camera_OCR_Tips_Discerning">
+    正在识别
+  </String>
+  <String id="Camera_TabTitle_Capture">
+    截图
+  </String>
+  <String id="Camera_TabTitle_OCR">
+    识图
+  </String>
+  <String id="Camera_Copy_SuccessTips">
+    已复制到粘贴板
+  </String>
+  <String id="Camera_OCR_NoResult">
+    无识别结果
+  </String>
+  <String id="Camera_OCR_ToMore">
+    图片过大
+  </String>
+  <String id="Menu_Camera_PopMenu_LongCapture">
+    长截图工具
+  </String>
+  <String id="Tips_Camera_Toolbar_LongCaptureTip">
+    长截图
   </String>
   <String id="Tip_FaceEdit_Edit">
 		点击涂鸦编辑表情
@@ -6598,6 +6804,17 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   <String id="CF_StructMsg_Forwording_Search">输入关键字查找联系人</String>
   <String id="CF_StructMsg_Forwording_List_Format">转发给以下联系人：$SEL$/$COUNT$</String>
   <String id="CF_StructMsg_Forwording_Success">转发成功</String>
+  <String id="CF_StructMsg_Forwording_Error_All">转发失败</String>
+  <String id="CF_StructMsg_Forwording_Error_Part">消息转发未完成</String>
+  <String id="CF_StructMsg_Forwording_Error_All_Tips">消息转发失败，点击联系人查看详情：</String>
+  <String id="CF_StructMsg_Forwording_Error_Part_Tips">部分内容转发失败，点击联系人查看详情：</String>
+  <String id="CF_StructMsg_Forwording_Error_Tips_LimitCount">最多选择$COUNT$条消息</String>
+  <String id="CF_StructMsg_Forwording_Error_Tips_LimitCount_Title">提示</String>
+  <String id="CF_StructMsg_Forwording_Ing">转发中</String>
+  <String id="CF_StructMsg_Forwording_Cancel">关闭</String>
+  <String id="CF_StructMsg_Forwording_Continue">继续转发</String>
+  <String id="CF_StructMsg_Forwording_Done">关闭</String>
+  <String id="CF_StructMsg_Download_Error">消息加载失败，请重新打开。</String>
   <String id="CF_StructMsg_OpePanel_MsgRevoke">撤回消息</String>
   <String id="CF_StructMsg_UnSupported_Layout">不支持的消息格式，请在手机QQ上查看</String>
   <String id="CF_StructMsg_UnSupported_Msg">你收到了一条消息无法展示，请在手机QQ上查看</String>
@@ -6609,6 +6826,8 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   <String id="CF_RED_BAG_TIPS">红包</String>
   <String id="CF_GVL_START">视频</String>
   <String id="CF_StructMsg_OpePanel_GroupReplyMsg">回复</String>
+  <String id="CF_StructMsg_OpePanel_MultiSelect">多选</String>
+  <String id="CF_StructMsg_OpePanel_DeleteMsg">删除</String>
   <String id="CF_DISCUSS_TRANSFORM_GROUP">[转群]</String>
   <String id="Ark_Loading">正在加载...</String>
   <String id="Ark_LoadError">点击&lt;link config="RSLinkTextHandNode"&gt;刷新&lt;/link&gt;重试</String>
@@ -6736,6 +6955,9 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   <String id="DiscussMsgReceiveType_Normal">接收消息并提醒</String>
   <String id="DiscussMsgReceiveType_ShowCount">接收消息但不提醒</String>
   <String id="DiscussMsgSettings">群聊消息设置</String>
+  <String id="GroupInvite_Summary">%s邀请你加入群聊“%s”。</String>
+  <String id="GroupInvite_Summary1">你邀请%s加入群聊“%s”。</String>
+  <String id="GroupInvite_Brief">[邀请加群]</String>
   <String id="MainFrame_Title" fmt="true">
     $__PNAME$
   </String>
@@ -6772,6 +6994,9 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   </String>
   <String id="MsgType_MultiMsg_Def">  
     [聊天记录]
+  </String>
+  <String id="MultiMsg_CompatibleTips">
+    [合并转发]请使用手机QQ最新版本查看
   </String>
   <String id="SYSMSG_IMAGE">
     [图片]
@@ -6905,6 +7130,18 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   <String id="Rich_Pic_Save_as">
     另存为
   </String>
+  <String id="Rich_Pic_Send_to">
+    发送到
+  </String>
+  <String id="Rich_Pic_Open_With">
+    以本地图片器开启
+  </String>
+  <String id="Rich_Pic_Save_Weiyun">
+    保存到微云
+  </String>
+  <String id="Rich_Pic_Save_Dataline">
+    发送到手机
+  </String>
   <String id="Rich_Pic_Save">
     保存到本地
   </String>
@@ -6940,6 +7177,9 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   </String>
   <String id="CF_UPLOADFILE_TIP">
     上传文件
+  </String>
+  <String id="CF_TENCENTDOC_COLLECT_TEXT">
+    收集表
   </String>
   <String id="CF_SETFONT_TEXT">
     字体选择
@@ -6994,6 +7234,9 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   </String>
   <String id="MSGMGR_NODE_STRANGER">
     陌生人
+  </String>
+  <String id="MSGMGR_NODE_SPECIALCARE">
+    特别关心
   </String>
   <String id="MSGMGR_GROUPSYSMSG">
     群系统消息
@@ -7297,7 +7540,7 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
     会话窗口
   </String>
   <String id="ConfigCenter_AIO_Tags">
-    自动弹出窗口;弹出窗口;窗口;允许来消息时自动弹出窗口#腾讯视频;视频;播放视频;视频文件;默认使用腾讯视频播放视频文件#魔法表情;超级表情;表情;自动播放;允许自动播放魔法表情和超级表情#随动表情;QQ秀;允许使用QQ秀聊天随动表情#炫彩字;显示好友的炫彩字#不显示广告;广告;不显示广告（会员设置项#侧边栏;聊天窗口;总是显示好友聊天窗口侧边栏#窗口抖动;抖动;窗口;允许接收窗口抖动#热词搜索;搜索;热词;显示热词搜索提示#气泡;多彩气泡;聊天气泡;使用多彩气泡;气泡聊天;qi;Qi;QI;qipao;QIPAO;Qipao;QiPao;qip;Qip;QIP;qp;qpao;设置多彩气泡#
+    自动弹出窗口;弹出窗口;窗口;允许来消息时自动弹出窗口#腾讯视频;视频;播放视频;视频文件;默认使用腾讯视频播放视频文件#表情;显示关键字推荐表情#随动表情;QQ秀;允许使用QQ秀聊天随动表情#炫彩字;显示好友的炫彩字#不显示广告;广告;不显示广告（会员设置项#侧边栏;聊天窗口;总是显示好友聊天窗口侧边栏#窗口抖动;抖动;窗口;允许接收窗口抖动#热词搜索;搜索;热词;显示热词搜索提示#气泡;多彩气泡;聊天气泡;使用多彩气泡;气泡聊天;qi;Qi;QI;qipao;QIPAO;Qipao;QiPao;qip;Qip;QIP;qp;qpao;设置多彩气泡#
   </String>
   <String id="ConfigCenter_FriendInformatin">
     信息展示
@@ -8109,6 +8352,7 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
     通讯录
   </String>
   <String id="Button_TencentVideoPush">订阅“腾讯视频”，获取量身定制视频资讯</String>
+  <String id="Button_JoinGroupByStranger">允许陌生人邀请我加入群聊</String>
   <String id="MB_UploadGroupCardInfoFail">
     修改群昵称失败。
   </String>
@@ -8751,6 +8995,9 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   <String id="ContactMgr_TreeCtrl_Strangers">
     陌生人
   </String>
+  <String id="ContactMgr_TreeCtrl_SpecialCare">
+    特别关心
+  </String>
   <String id="ContactMgr_TreeCtrl_Strangers_Add">
     加为好友
   </String>
@@ -9312,8 +9559,8 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
 		表情文件不存在。
 	</String>
   <String id="FaceMgr_Picture_OverSize">
-		图片尺寸超出范围，请用"发送图片"发送。
-	</String>
+    图片过大，建议添加到“多终端表情漫游”。
+  </String>
   <String id="MultiTermi_AddStoreFace_To_Custom">
     无法添加原创表情到自定义表情，请从表情商城添加。
   </String>
@@ -9324,7 +9571,7 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
     该表情为SVIP表情，请开通超级会员。
   </String>
   <String id="MultiTermi_AddStoreFace_For_VIP">
-    添加至多终端漫游收藏夹为会员特权，请开通QQ会员。
+    该表情为VIP表情，请开通QQ会员。
   </String>
   <String id="MultiTermi_AddStoreFace_For_Actice">
     请先参加相应活动获得该原创表情特权。
@@ -9753,14 +10000,14 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   <String id="QQFace_Multi_Terminate_OpenVip">
     开通会员
   </String>
-  <String id="QQFace_Multi_Terminate_Vip">
-    我是会员 马上体验
+  <String id="QQFace_Multi_Terminate_Experience">
+    马上体验
   </String>
   <String id="QQFace_Multi_Terminate_Desc1">
     漫游表情新功能
   </String>
   <String id="QQFace_Multi_Terminate_Desc2">
-    QQ会员新增不同设备间自动同步收藏表情功能，赶紧试试吧！
+    不同设备间可自动同步收藏表情功能，赶紧试试吧！
   </String>
   <String id="QQFace_FaceTip_NoShortCut">
 		快捷键:无
@@ -10070,6 +10317,9 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   </String>
   <String id="DiyFace_FileExceedMaxLimit">
     图片过大，无法制作表情。
+  </String>
+  <String id="Enable_Show_ER">
+    显示关键字推荐表情
   </String>
   <String id="HotPic_ManageMsgBox_Title">
     动态图管理
@@ -10890,6 +11140,9 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   <String id="Add_too_more">
     对不起，你一次最多可以添加100个成员，请重新选择。
   </String>
+  <String id="Add_too_more2">
+    群人数已达群规模上限
+  </String>
   <String id="GroupToolBarInviteBuddy">
     邀请进群
   </String>
@@ -11148,6 +11401,7 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   <String id="Vote_Page_VoteExpiredTips">投票已过期</String>
   <String id="Vote_Page_HasDoneVote">你已投过票</String>
   <String id="Vote_AbstractMsg">投票</String>
+  <String id="Vote_AbstractMsg_MsgConvert">[投票]</String>
   <String id="Vote_SponsorVoteFailedPrompt">可能由于网络原因，发起投票失败。</String>
   <String id="DiscussSysMsg_Head">选择了</String>
   <String id="DiscussSysMsg_Item">选项$X$ </String>
@@ -12317,6 +12571,39 @@ RGB:$COLORHEX$                    <!--左对齐--></String>
   <String id="QuitChooseNewOwner">请选择要转让的联系人</String>
   <String id="TransChooseNewOwner">你是群主，请选择要转让的联系人</String>
   <String id="CreateTimePre">创建于</String>
+  <String id="IDS_GroupBulletin_MsgConvert">[群公告]</String>
+  <String id="IDS_GroupFeeds_Vote_MsgConvert">[群投票]</String>
+  <String id="IDS_GroupFeeds_App_MsgConvert">[群应用]</String>
+  <String id="GroupChainTipsPrefix">你和%s有%d个共同好友，点击</String>
+  <String id="GroupChainTipsPrefix2">你和%s等%d人有多个共同好友，点击</String>
+  <String id="GroupChainTipsLink">添加好友</String>
+  <String id="GroupChainTipsSuffix">。</String>
+  <String id="GroupChainTipsMore">…</String>
+  <String id="GroupChainAddBuddyPanel_Title_Add">添加好友</String>
+  <String id="GroupChainAddBuddyPanel_Btn_Add">添加</String>
+  <String id="GroupChainAddBuddyPanel_Btn_Added">已添加</String>
+  <String id="GroupChainAddBuddyPanel_Static_MutualBuddy">$count$位共同好友</String>
+  <String id="GroupInviteMsg_Invite">群聊邀请</String>
+  <String id="GroupInviteMsg_InviteText">%s邀请你加入群聊</String>
+  <String id="GroupInviteMsg_Join">同意加入</String>
+  <String id="GroupInviteMsg_OtherBuddyExist">等%d人也在该群聊</String>
+  <String id="GroupInviteMsg_OtherBuddyExist2">也在该群聊</String>
+  <String id="GroupInviteMsg_Accepted">你已接受邀请</String>
+  <String id="GroupInviteMsg_WaitAdminAgree">你已申请加入，等待管理员审核</String>
+  <String id="GroupInviteMsg_AdminNotAgree">管理员拒绝你的加群申请</String>
+  <String id="GroupInviteMsg_MemberCount">(%d)</String>
+  <String id="GroupInviteMsg_WaitForHandle">等待对方处理</String>
+  <String id="GroupInviteMsg_Accepted2">对方已接受邀请</String>
+  <String id="GroupInviteMsg_Expired">该邀请已过期</String>
+  <String id="GroupInviteMsg_Ignore">对方已忽略该邀请</String>
+  <String id="GroupInviteMsg_Ignore2">你已忽略该邀请</String>
+  <String id="GroupInviteMsg_Refuse">你已拒绝该邀请</String>
+  <String id="GroupInviteMsg_Refuse2">对方已拒绝该邀请</String>
+  <String id="GroupInviteMsg_Joined">对方已经加入</String>
+  <String id="GroupInviteMsg_Default">数据拉取失败，请稍后重试</String>
+  <String id="GroupInviteMsg_JoinFail">操作失败，请稍后重试</String>
+  <String id="GroupInviteMsg_JoinFail_GroupFull">该群已满员，不可加入</String>
+  <String id="GroupInviteMsg_JoinFail_NotJoin">该群不可加入</String>
   <String id="Title_StartFail" fmt="true">
     启动$__PNAME$失败
   </String>
@@ -13173,6 +13460,21 @@ QQ软件&lt;link config="RSLinkTextHandNode" label="CheckParentProcessDownloadUr
   </String>
   <String id="MultiMsg_BriefDefault">[转发]</String>
   <String id="GROUP_IMAGE_NOT_ENOUGH_SPACE">电脑空间不足，图片下载失败，请清理后再试。</String>
+  <String id="MultiMsg_SourceName">聊天记录</String>
+  <String id="MultiMsg_StructMsgTemplate_New">
+    &lt;?xml version="1.0" encoding="utf-8"?&gt;
+    &lt;msg brief="[聊天记录]" m_fileName="%s" action="viewMultiMsg" tSum="2" flag="3" m_resid="%s" serviceID="35" m_fileSize="%s"  &gt; &lt;item layout="1"&gt; %s  &lt;hr&gt;&lt;/hr&gt; &lt;summary color="#808080" size="26" &gt; 查看转发消息  &lt;/summary&gt; &lt;/item&gt;&lt;source name="聊天记录"&gt;&lt;/source&gt; &lt;/msg&gt;
+  </String>
+  <String id="MultiMsg_StructMsgTemplate_New_2">
+    &lt;?xml version="1.0" encoding="utf-8"?&gt;
+    &lt;msg brief="[聊天记录]" m_fileName="%s" action="viewMultiMsg" tSum="2" flag="3" serviceID="35" m_fileSize="%s"  &gt; &lt;item layout="1"&gt; %s  &lt;hr&gt;&lt;/hr&gt; &lt;summary color="#808080" size="26" &gt; 查看转发消息  &lt;/summary&gt; &lt;/item&gt;&lt;source name="聊天记录"&gt;&lt;/source&gt; &lt;/msg&gt;
+  </String>
+  <String id="MultiMsg_title1">
+    &lt;title color="#000000" size="34" &gt; %s &lt;/title&gt;
+  </String>
+  <String id="MultiMsg_title2">
+    &lt;title color="#000000" size="26" &gt; %s &lt;/title&gt;
+  </String>
   <String id="VerifySSLCName">*.ftn.qq.com</String>
   <String id="TempSession_SourceType_Group">群</String>
   <String id="TempSession_SourceType_NearBy">附近</String>
@@ -13990,6 +14292,9 @@ QQ软件&lt;link config="RSLinkTextHandNode" label="CheckParentProcessDownloadUr
   </String>
   <String id="MainPanel_Menu_K0_She">
     分享她的名片
+  </String>
+  <String id="MainPanel_Menu_K0_Self">
+    分享自己的名片
   </String>
   <String id="MainPanel_Menu_L">
     查看资料
@@ -15115,7 +15420,7 @@ QQ软件&lt;link config="RSLinkTextHandNode" label="CheckParentProcessDownloadUr
   <String id="QQLevel_SuperVip_Head">你是超级会员SVIP$VipLevel$</String>
   <String id="QQLevel_Vip_Tail">，等级加速$SpeedUpRatio$倍生效中</String>
   <String id="QQLevel_SemiVip">开通QQ会员尊享QQ等级最高2.0倍加速</String>
-  <String id="QQLevel_NotSupuerVip">开通超级会员尊享QQ等级最高3.0倍加速</String>
+  <String id="QQLevel_NotSupuerVip">开通超级会员尊享QQ等级最高3.2倍加速</String>
   <String id="MainPanel_TabButton_RClick_Menu_OpenUIMgr">
     打开界面管理器
   </String>
@@ -15560,6 +15865,24 @@ QQ软件&lt;link config="RSLinkTextHandNode" label="CheckParentProcessDownloadUr
   <String id="AppFeedsInstallTipsContent">确认下载并安装“$AppName$”?</String>
   <String id="AppFeedsInstallTipsOK">确认</String>
   <String id="Offline_Banner_Text">你已经处于离线状态，请上线后再次尝试。</String>
+  <String id="C2C_Avoidance_Menu_H">
+    消息免打扰
+  </String>
+  <String id="C2C_15_Min">
+    15分钟
+  </String>
+  <String id="C2C_1_Hour">
+    1小时
+  </String>
+  <String id="C2C_1_Day">
+    1天
+  </String>
+  <String id="C2C_Till_End">
+    直到我关闭
+  </String>
+  <String id="C2C_Close_End">
+    关闭
+  </String>
   <String id="FONT_Yahei">
 		微软雅黑
 	</String>
@@ -16256,6 +16579,9 @@ QQ软件&lt;link config="RSLinkTextHandNode" label="CheckParentProcessDownloadUr
   <String id="MsgBoxOutRoamLimit">
 		超出VIP$VIP$设置上限，不能添加。
 	</String>
+  <String id="Button_Confirm">
+    确定
+  </String>
   <String id="Button_PrevPage">
 		上一页
 	</String>
@@ -16566,11 +16892,15 @@ QQ软件&lt;link config="RSLinkTextHandNode" label="CheckParentProcessDownloadUr
   <String id="TempSession_BlockTips_1_2">
     ”群向你发起临时会话，
   </String>
+  <String id="RecordMultiSelectOk">确定</String>
+  <String id="RecordMultiSelectCancel">取消</String>
+  <String id="RecordMultiMsgSelect_Error_Tips_LimitCount">最多选择$COUNT$条消息</String>
+  <String id="RecordMultiMsgSelect_Error_Tips_LimitCount_Title">提示</String>
   <String id="MSGFILE_IN_SHARE">
     QQ个人文件夹中的文件被占用，暂时无法登录。
   </String>
   <String id="ACCOUNT_NOT_SAME">
-    实际登录的帐号并非请求登录的帐号。
+    请检查手机端扫码的QQ和电脑端是否一致。
   </String>
   <String id="USERDATAFILE_IS_USED" fmt="true">
     QQ个人文件夹中的文件被占用，暂时无法登录。
@@ -23200,6 +23530,8 @@ QQ软件&lt;link config="RSLinkTextHandNode" label="CheckParentProcessDownloadUr
   <String id="MyCollection_MenuItem_Forward">转发</String>
   <String id="MyCollection_MenuItem_SaveAs">另存为</String>
   <String id="MyCollection_Success">已收藏</String>
+  <String id="MyCollection_FailedAdd">收藏失败,可能网络出错。</String>
+  <String id="MyCollection_FileNameTooLong">文件名称过长，收藏失败。</String>
   <String id="MyCollection_BlueBarLink">我的收藏 </String>
   <String id="MyCollection_BlueBarTips">收藏成功，点击我的收藏查看</String>
   <String id="MyCollection_PicTooBig">图片过大，收藏失败</String>
@@ -23319,6 +23651,7 @@ QQ软件&lt;link config="RSLinkTextHandNode" label="CheckParentProcessDownloadUr
   <String id="MyCollection_Download_StatusTip">已下载文件：</String>
   <String id="MyCollection_CloseFileDownload">当前有文件未完成下载，关闭窗口将会终止下载。是否关闭窗口？</String>
   <String id="MyCollection_DownLoadNoEnoughSpace">分区$DISK$空间已满，请选择下载到其他路径。</String>
+  <String id="MyCollection_SaveAsNoEnoughSpace">分区$DISK$空间已满，请保存到其他路径。</String>
   <String id="MyCollection_Download_StatusOffLine">你的QQ目前处于离线状态，文件下载中断，请登录QQ后重新下载。</String>
   <String id="MyCollection_CollectionWnd_SettingBtnTip">工具</String>
   <String id="MyCollection_CollectionWnd_SettingWebAsst">了解QQ收藏·网页助手</String>
@@ -23395,6 +23728,19 @@ QQ软件&lt;link config="RSLinkTextHandNode" label="CheckParentProcessDownloadUr
   <String id="MyCollection_Forwarding_ShortVideo">短视频</String>
   <String id="MyCollection_Forwarding_Size">大小</String>
   <String id="MyCollection_Forwarding_Duration">时长</String>
+  <String id="MyCollection_From">来自：$Source$</String>
+  <String id="MyCollection_Msg_Video">[视频]</String>
+  <String id="MyCollection_Msg_RedBag">[红包]</String>
+  <String id="MyCollection_Msg_UnKnow">此类型不支持收藏</String>
+  <String id="MyCollection_Msg_MultiNotSupport">[合并转发]该消息不支持查看</String>
+  <String id="MyCollection_Msg_FileNotSupport">该文件不支持收藏</String>
+  <String id="MyCollection_Msg_FileName">[文件]$FILENAME$</String>
+  <String id="MyCollection_Msg_UnKnowType">未知</String>
+  <String id="MyCollection_Tip_NotSupport">该消息不支持收藏</String>
+  <String id="MyCollection_Tip_MultiWithNotSupport">多选收藏中不支持收藏的消息将以文字展示</String>
+  <String id="MyCollection_File_UploadError">文件收藏，上传失败</String>
+  <String id="MyCollection_File_LimitSingleSize">[文件]该文件大于100M不支持收藏</String>
+  <String id="MyCollection_MainPanel_Open">打开收藏</String>
   <String id="Timsh_DocxPreviewError_Title">TIM在线文档</String>
   <String id="Timsh_DocxPreviewError_OpenFail">打开失败</String>
   <String id="Timsh_DocxPreviewError_FileTooLarge">该文件大于20MB，暂不支持在线预览。</String>

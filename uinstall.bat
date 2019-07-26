@@ -104,3 +104,7 @@ reg delete HKLM\Software\Wow6432Node\Tencent\QQPhotoDrawEx /F>NUL 2>NUL
 reg delete HKLM\Software\Wow6432Node\Tencent\Report /F>NUL 2>NUL
 reg delete HKLM\Software\Wow6432Node\Classes\Tencent /F>NUL 2>NUL
 reg delete HKLM\SYSTEM\CurrentControlSet\services\QQProtect /F>NUL 2>NUL
+
+::删除桌面图标(只支持系统默认桌面位置)
+del /q "%userprofile%\桌面\腾讯QQ.lnk" >NUL 2>NUL
+del /q "%userprofile%\Desktop\腾讯QQ.lnk" >NUL 2>NUL

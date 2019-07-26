@@ -98,25 +98,25 @@ if "%a%"=="7" set a=<nul&& Goto B7
 echo.&echo 输入无效，请重新输入！ 
 PAUSE >NUL && CLS && GOTO R2
 :B1
-XCOPY "%~DP0\Component\02\1\Res.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
+XCOPY "%~DP0\Component\02\1\Res.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
 CLS && ECHO.&ECHO 替换完成，任意键返回！&&PAUSE >NUL && CLS && GOTO MENU
 :B2
-XCOPY "%~DP0\Component\02\2\Res.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
+XCOPY "%~DP0\Component\02\2\Res.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
 CLS && ECHO.&ECHO 替换完成，任意键返回！&&PAUSE >NUL && CLS && GOTO MENU
 :B3
-XCOPY "%~DP0\Component\02\3\Res.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
+XCOPY "%~DP0\Component\02\3\Res.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
 CLS && ECHO.&ECHO 替换完成，任意键返回！&&PAUSE >NUL && CLS && GOTO MENU
 :B4
-XCOPY "%~DP0\Component\02\4\Res.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
+XCOPY "%~DP0\Component\02\4\Res.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
 CLS && ECHO.&ECHO 替换完成，任意键返回！&&PAUSE >NUL && CLS && GOTO MENU
 :B5
-XCOPY "%~DP0\Component\02\5\Res.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
+XCOPY "%~DP0\Component\02\5\Res.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
 CLS && ECHO.&ECHO 替换完成，任意键返回！&&PAUSE >NUL && CLS && GOTO MENU
 :B6
-XCOPY "%~DP0\Component\02\6\Res.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
+XCOPY "%~DP0\Component\02\6\Res.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
 CLS && ECHO.&ECHO 替换完成，任意键返回！&&PAUSE >NUL && CLS && GOTO MENU
 :B7
-XCOPY "%~DP0\Component\02\7\Res.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
+XCOPY "%~DP0\Component\02\7\Res.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
 CLS && ECHO.&ECHO 替换完成，任意键返回！&&PAUSE >NUL && CLS && GOTO MENU
 
 :R3
@@ -174,24 +174,24 @@ if "%a%"=="4" set a=<nul&& Goto D4
 echo.&echo 输入无效，请重新输入！ 
 PAUSE >NUL && CLS && GOTO R4
 :D1
-XCOPY "%~DP0\Component\04\1\Xtml.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
+XCOPY "%~DP0\Component\04\1\Xtml.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
 XCOPY "%~DP0\Component\04\1\AppFramework.dll"  "%~DP0\Bin\" /E /Y >NUL
 XCOPY "%~DP0\Component\04\Com.Tencent.QQShow\*" "%~DP0\Plugin\Com.Tencent.QQShow\" /E /Y >NUL
 CLS && ECHO.&ECHO 启用完成，任意键返回！&&PAUSE >NUL && CLS && GOTO MENU
 :D2
-XCOPY "%~DP0\Component\04\2\Xtml.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
+XCOPY "%~DP0\Component\04\2\Xtml.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
 XCOPY "%~DP0\Component\04\2\AppFramework.dll"  "%~DP0\Bin\" /E /Y >NUL
 XCOPY "%~DP0\Component\04\Com.Tencent.QQShow\*" "%~DP0\Plugin\Com.Tencent.QQShow\" /E /Y >NUL
 CLS && ECHO.&ECHO 去除完成，任意键返回！&&PAUSE >NUL && CLS && GOTO MENU
 :D3
-XCOPY "%~DP0\Component\04\3\Xtml.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
-XCOPY "%~DP0\Component\04\3\Data.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
+XCOPY "%~DP0\Component\04\3\Xtml.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
+XCOPY "%~DP0\Component\04\3\Data.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
 XCOPY "%~DP0\Component\04\3\AppFramework.dll"  "%~DP0\Bin\" /E /Y >NUL
 RD "%~DP0\Plugin\Com.Tencent.QQShow\" /S /Q  >NUL
 CLS && ECHO.&ECHO 启用完成，任意键返回！&&PAUSE >NUL && CLS && GOTO MENU
 :D4
-XCOPY "%~DP0\Component\04\4\Xtml.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
-XCOPY "%~DP0\Component\04\4\Data.rdb"  "%~DP0\Resource.9.1.0.24712\" /E /Y >NUL
+XCOPY "%~DP0\Component\04\4\Xtml.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
+XCOPY "%~DP0\Component\04\4\Data.rdb"  "%~DP0\Resource.9.1.5.25530\" /E /Y >NUL
 XCOPY "%~DP0\Component\04\4\AppFramework.dll"  "%~DP0\Bin\" /E /Y >NUL
 RD "%~DP0\Plugin\Com.Tencent.QQShow\" /S /Q  >NUL
 CLS && ECHO.&ECHO 去除完成，任意键返回！&&PAUSE >NUL && CLS && GOTO MENU

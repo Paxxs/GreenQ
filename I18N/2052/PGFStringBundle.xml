@@ -11,7 +11,7 @@
 	<String id="Common_SelectTypePrompt">请选择验证方式:</String>
 	<String id="Common_Include">包括</String>
 	<String id="Link_Common_RequestPGSetting">&lt;Title=&quot;立即设置&quot;,Url=&quot;http://ptlogin2.qq.com/unisecverify?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
-	<String id="Link_Common_IngredientSetting">&lt;Title=&quot;取消验证&quot;,Url=&quot;http://ptlogin2.qq.com/unisecverify_qq_set?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="Link_Common_IngredientSetting">&lt;Title=&quot;取消验证&quot;,Url=&quot;https://ptlogin2.qq.com/unisecverify_qq_set?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
 	<String id="Link_Common_Help">&lt;Title=&quot;帮助&quot;,Url=&quot;http://ptlogin2.qq.com/unisecverify_qq_help?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
 
 	<String id="PwdGuardCard_Name">密保卡</String>
@@ -117,7 +117,7 @@
 	<String id="IngredientSelector_TextPrompt_Part4_URL">http://ptlogin2.qq.com/unisecverify_qq_iperror?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=$KEY_INDEX$</String>
 	<String id="IngredientSelector_TextPrompt_Part5_Content">，需要验证密保。  </String>
 	<String id="IngredientSelector_TextPrompt_Part6_Content">关闭保护</String>
-	<String id="IngredientSelector_TextPrompt_Part6_URL">http://ptlogin2.qq.com/unisecverify_qq_set</String>
+	<String id="IngredientSelector_TextPrompt_Part6_URL">https://ptlogin2.qq.com/unisecverify_qq_set</String>
 	<String id="IngredientSelector_QRCode_URL">http://ptlogin2.qq.com/unisecverify_qq_qr?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=$KEY_INDEX$</String>
 	<String id="IngredientSelector_OneClick_URL">http://ptlogin2.qq.com/unisecverify_qq_oneclick?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=$KEY_INDEX$</String>
 	<String id="IngredientSelector_strBtnCancelText">上一步</String>

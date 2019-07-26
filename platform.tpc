@@ -2,11 +2,11 @@
 <tpc version="1.0.0">
   <file-systems>
     <file-system name="@thismisc:" path="Misc" type="windows"/>
-    <file-system name="@thisdata:" path="Resource.9.1.0.24712\Data"/>
-    <file-system name="@thisres:" path="Resource.9.1.0.24712\Res"/>
-    <file-system name="@thisxtml:" path="Resource.9.1.0.24712\Xtml"/>
+    <file-system name="@thisdata:" path="Resource.9.1.5.25530\Data"/>
+    <file-system name="@thisres:" path="Resource.9.1.5.25530\Res"/>
+    <file-system name="@thisxtml:" path="Resource.9.1.5.25530\Xtml"/>
 	<file-system name="@defaultxtml:" path="@thisxtml:\Template"/>
-    <file-system name="@thistheme:" path="Resource.9.1.0.24712\Themes\Default"/>
+    <file-system name="@thistheme:" path="Resource.9.1.5.25530\Themes\Default"/>
     <file-system name="sysres:" path="@thisres:AppFramework"/>
     <file-system name="sysxtml:" path="@thisxtml:AppFramework"/>
     <file-system name="systheme:" path="@thistheme:AppFramework"/>
